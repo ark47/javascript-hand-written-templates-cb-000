@@ -1,4 +1,5 @@
 function addComment() {
+  event.preventDefault();
   var bodyText = "This research is bold and important!";
   var commenter = "Definitely not a woodchuck looking to eat the wood";
  
